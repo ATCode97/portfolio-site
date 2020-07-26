@@ -3,7 +3,9 @@ import React from "react";
 const HomePage = () => {
   return (
     <div>
-      <h1>Something about me</h1>
+      <br></br>
+      <br></br>
+      <h1>Landing Page</h1>
     </div>
   );
 };
