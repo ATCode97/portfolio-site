@@ -16,13 +16,13 @@ const NavBar = (props) => {
         <div className="toolbar-nav-items">
           <ul>
             <li>
+              <a href="/aboutme">About me</a>
+            </li>
+            <li>
               <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href="/aboutme">About Me</a>
-            </li>
-            <li>
-              <a href="/experience">Projects</a>
+              <a href="/experience">Experience</a>
             </li>
           </ul>
         </div>
