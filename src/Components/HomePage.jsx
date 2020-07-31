@@ -27,8 +27,21 @@ const HomePage = () => {
 
       <Grid>
         <Grid.Column textAlign="center">
-          <Icon name="github icon" size="massive" />
-          <Icon name="linkedin icon" size="massive" />
+          <a
+            href={"https://github.com/ATCode97"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon name="github icon" size="massive" />
+          </a>
+
+          <a
+            href={"https://www.linkedin.com/in/alistair-tsang-2ba049171/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon name="linkedin icon" size="massive" />
+          </a>
         </Grid.Column>
       </Grid>
 
