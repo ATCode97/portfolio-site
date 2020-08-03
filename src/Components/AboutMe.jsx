@@ -7,8 +7,17 @@ const AboutMe = () => {
       <br></br>
       <br></br>
       <br></br>
-      <h1>About me</h1>
+      <h1
+        style={{
+          textAlign: "center",
+        }}
+      >
+        About me
+      </h1>
+      <br></br>
+      <br></br>
       <Container textAlign="justified">
+        <Divider />
         <h1>Hello!</h1>
         <p>
           I have excellent written and spoken communication skills gained by
@@ -28,6 +37,17 @@ const AboutMe = () => {
         </p>
         <Divider />
         <h1>Work Experience</h1>
+        <h2>Northcoders, Leeds</h2>
+        <p>
+          I successfully completed an industry led curriculum for a career in
+          the software industry. During the course, I learnt industry best
+          practices including git version control, TDD and pair programming. I
+          have built and developed a backend server following the MVC framework,
+          and I am confident in Express, Axios, Knex and PSQL. I developed and
+          built a web application and also designed using CSS and bootstrap.
+        </p>
+        <Divider />
+        <h2>Background Artist, CBC Agency</h2>
       </Container>
     </div>
   );
