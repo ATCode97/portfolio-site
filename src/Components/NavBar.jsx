@@ -22,7 +22,7 @@ const NavBar = (props) => {
               <a href="/contact">Contact</a>
             </li>
             <li>
-              <a href="/experience">Experience</a>
+              <a href="/projects">Projects</a>
             </li>
           </ul>
         </div>

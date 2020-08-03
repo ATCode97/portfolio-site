@@ -4,7 +4,7 @@ import NavBar from "./Components/NavBar";
 import HomePage from "./Components/HomePage";
 import AboutMe from "./Components/AboutMe";
 import Contact from "./Components/Contact";
-import Experience from "./Components/Experience";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
           <HomePage path="/" />
           <AboutMe path="/aboutme" />
           <Contact path="/contact" />
-          <Experience path="/experience" />
+          <Projects path="/projects" />
         </Router>
       </main>
     </div>
