@@ -14,8 +14,7 @@ const AboutMe = () => {
       >
         About me
       </h1>
-      <br></br>
-      <br></br>
+
       <Container textAlign="justified">
         <Divider />
         <h1>Hello!</h1>
@@ -48,7 +47,36 @@ const AboutMe = () => {
         </p>
         <Divider />
         <h2>Background Artist, CBC Agency</h2>
+        <p>
+          I work as an “extra” for a variety of TV productions (BBC, Amazon, Sky
+          etc) in various locations in the UK. This role requires the ability to
+          quickly grasp and follow direction from the Assistant Director,
+          reliability and good time management. I also demonstrate good
+          interpersonal skills by communicating and working with people from a
+          diverse range of ages and backgrounds.
+        </p>
+        <Divider />
+        <h2> Delivery Driver, Eden Bespoke Flowers</h2>
+        <p>
+          I work as a delivery driver for a local florist. Some orders are time
+          sensitive and deliveries can be spread over a wide area in Leeds. This
+          role requires good special planning to work out the most efficient and
+          quickest route to complete my deliveries.
+        </p>
+        <Divider />
+        <h2>LBG Back Log Admin, Mitie, Engineering Service</h2>
+        <p>
+          I was responsible for contacting and communicating with external
+          contractors and internal engineers to update and track the status of
+          current projects. Role required strong communication skills, tact and
+          persistence. Through working in a group, I also demonstrated strong
+          teamwork and interpersonal skills.
+        </p>
       </Container>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 };

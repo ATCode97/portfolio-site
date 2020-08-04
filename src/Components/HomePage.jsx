@@ -22,7 +22,7 @@ const HomePage = () => {
           textAlign: "center",
         }}
       >
-        Alistair Tsang
+        Welcome!
       </h1>
 
       <Grid>
