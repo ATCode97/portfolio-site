@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Divider } from "semantic-ui-react";
-import rbimg from "../Img/MaterialUI.png";
 import beimg from "../Img/NC_NewsBE.png";
 import feimg from "../Img/NC_NewsFE.png";
+import trimg from "../Img/Tech_Review.png";
+import waimg from "../Img/worldArt.png";
 
 const Projects = () => {
   return (
@@ -18,7 +19,7 @@ const Projects = () => {
       </h1>
       <Container textAlign="justified">
         <Divider />
-        <img class="ui small centered image" src={rbimg} alt="tech-review" />
+        <img class="ui large centered image" src={trimg} alt="tech-review" />
         <h3>Tech Review</h3>
         <p>
           An web application that review different frontend and backend
@@ -27,7 +28,7 @@ const Projects = () => {
           projects.{" "}
         </p>
         <Divider />
-        <img class="ui small centered image" src={rbimg} alt="worldArt" />
+        <img class="ui large centered image" src={waimg} alt="worldArt" />
         <h3>worldArt</h3>
         <p>An React native app as my final project</p>
         <Divider />
